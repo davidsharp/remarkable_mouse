@@ -15,7 +15,7 @@ logging.basicConfig(format='%(message)s')
 log = logging.getLogger(__name__)
 
 
-def open_remote_device(args, file='/dev/input/event0'):
+def open_remote_device(args, file='/dev/input/touchscreen0'):
     """
     Open a remote input device via SSH.
 
